@@ -1,0 +1,27 @@
+{
+  "name": "ayoosuff/zfrapid-domain",
+  "description": "ZF module with a domain class library to be used by ZFrapid applications",
+  "license": "The MIT License (MIT)",
+  "type": "library",
+  "homepage": "https://github.com/ayoosuff/zfrapid-domain",
+  "authors": [
+    {
+      "name": "Ralf Eggert",
+      "email": "ralf@travello.de",
+      "homepage": "http://www.travello.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-db": "~2.5",
+    "zendframework/zend-filter": "~2.5",
+    "zendframework/zend-hydrator": "~1.1",
+    "zendframework/zend-stdlib": "~2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZFrapidDomain\\": "src/"
+    }
+  }
+}
